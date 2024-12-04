@@ -1,0 +1,83 @@
+@media print {
+    #write{
+        max-width: 100%;
+    }
+    @page {
+        size: A4;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid darkgreen;
+  width: 80%;
+  margin: auto;
+}
+
+.cover {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid darkgreen;
+  margin: auto;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+h1 {
+  column-span: all;
+  text-align: center;
+}
+
+h2 {
+  column-span: all;
+  text-align: center;
+}
+
+hr {
+  column-span: all;
+}
+
+.ddiv1 {
+  float: left;
+  padding: 15px; 
+  width: 45%;
+}
+
+.ddiv2 {
+  float: left;
+  padding: 15px; 
+  width: 45%;
+
+}
+
+.topper {
+  margin-left: 10%;
+  float: left;
+  padding: 2px;
+  font-family: Georgia;
+
+}
+ 
+.pnumber {
+  margin-right: 10%;
+  float: right;
+  padding: 2px;
+  font-family: Georgia;
+
+}
+   
